@@ -1,0 +1,53 @@
+
+
+/*Все ресеты*/
+
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*Убираем внешние отступы*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/*Удаляем стандартную стилизацию UL*/
+
+ul[class] {
+    list-style: none;
+}
+
+/*Сброс стилей кнопок*/
+
+.btn-reset {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*Сброс стилей ссылки*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
