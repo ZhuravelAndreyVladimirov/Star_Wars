@@ -1,0 +1,44 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container.hiden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: wheat;
+  text-align: center;
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.films {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.films__card {
+  opacity: .9;
+  background-color: #5c5959;
+}
+
+.films__card-title {
+  color: wheat;
+}
+
+.films__card-text {
+  color: whitesmoke;
+}

@@ -1,0 +1,49 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-top: 20px;
+  background-color: rgba(27, 27, 34, .9);
+  min-height: 100vh;
+}
+
+.container.hiden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: wheat;
+  text-align: center;
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: wheat;
+  text-align: center;
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.episode__btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.text {
+  color: #cdb08b;
+  text-align: center;
+}
+
+.item {
+  color: #cdb08b;
+}
